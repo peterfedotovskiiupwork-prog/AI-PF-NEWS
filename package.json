@@ -1,0 +1,22 @@
+{
+  "name": "daily-ai-news",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "trigger dev",
+    "deploy": "trigger deploy"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@trigger.dev/sdk": "4.4.5",
+    "nodemailer": "^8.0.7",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "@trigger.dev/build": "4.4.5",
+    "@types/node": "^22.0.0",
+    "@types/nodemailer": "^8.0.0",
+    "typescript": "^5.8.0"
+  }
+}
